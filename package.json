@@ -1,0 +1,20 @@
+{
+  "name": "geojson-point-tiles",
+  "version": "0.0.0",
+  "description": "Divide geojson features into tiles",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GeoJSON",
+    "tiles"
+  ],
+  "author": "idris-maps.com",
+  "license": "GPL",
+  "dependencies": {
+    "jsonfile": "~2.2.1",
+    "tilebelt": "~1.0.1",
+    "turf-inside": "~1.1.4"
+  }
+}
