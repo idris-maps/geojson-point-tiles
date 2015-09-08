@@ -18,3 +18,13 @@ Run the script with
 ```
 $ node run
 ```
+
+The output is in the ```data``` folder and looks like this
+
+```
+[
+	{x: <tileX>, y: <tileY>, features: [<array of geojson features>]},
+	{x: <tileX>, y: <tileY>, features: [<array of geojson features>]},
+	// ...
+]
+```
